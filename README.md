@@ -1,7 +1,7 @@
 # Basic Portfolio
 
-## Basic HTML and CSS. These sites are not responsive. 
+## Basic HTML and CSS. This site is not responsive. 
 
-- These are my first sites ever.
+- This is my first site ever.
 
 # Thank you for your time!
