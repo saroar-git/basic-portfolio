@@ -1,0 +1,261 @@
+/* Common CSS */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    border-radius: 8px;
+    padding: 12px 25px;
+    border: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-secondary {
+    background-color: white;
+    border: 1px solid #FD6E0A;
+    border-radius: 8px;
+    padding: 12px 25px;
+    color: #FD6E0A;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    cursor: pointer;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.description {
+    color: #757575;
+    padding: 0;
+    margin: 30px 0 45px 0;
+}
+
+
+/* Header CSS */
+header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, center left;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 180px;
+}
+
+.nav-title {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.nav-title a {
+    text-decoration: none;
+    color: #181818;
+}
+
+.orange {
+    color: #FD6E0A;
+}
+
+header nav>ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+header nav>ul>li {
+    list-style: none;
+}
+
+header nav>ul>li>a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 18px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    width: 50%;
+    padding-left: 180px;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 800;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.banner-description {
+    color: #757575;
+    width: 550px;
+    padding: 0;
+    margin: 0 0 25px 0;
+}
+
+/* About me CSS */
+
+.about-me {
+    max-width: 850px;
+    margin: 130px auto;
+    padding: 130px 150px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.each-about-title {
+    margin: 0;
+    padding: 0;
+    color: #757575;
+}
+
+.each-about-description {
+    margin: 0;
+    padding: 10px 0 0 0;
+    color: #474747
+}
+
+/* What I do CSS */
+.what-i-do,
+.summery {
+    max-width: 1140px;
+    margin: 0 auto 130px auto;
+    text-align: center;
+}
+
+.skill-container {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.expertise {
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
+    text-align: justify;
+}
+
+/* Summery CSS */
+.edu-exp {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    text-align: left;
+    color: #474747;
+    margin-top: 100px;
+}
+
+.education,
+.experience {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.degree {
+    margin: 25px 0 0 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+.institute {
+    margin: 10px 0 20px 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.details {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+/* Footer CSS */
+
+footer {
+    background-color: #FFF8F3;
+    padding: 130px 130px 50px 130px;
+    display: flex;
+    gap: 115px;
+    align-items: start;
+
+}
+
+.connect,
+.message {
+    width: 50%;
+}
+
+.detail {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #474747;
+}
+
+.connect>img {
+    margin-right: 25px;
+}
+
+.message form {
+    margin-top: 20px;
+}
+
+.message form input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.message form input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: #474747;
+}
